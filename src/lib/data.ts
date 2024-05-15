@@ -158,14 +158,7 @@ export const EXPERIENCE: {
         'Design, secure, and optimize cloud solutions, migrate IT infrastructure to Azure, Provide M365 Training.',
       startDate: 'Apr 2023',
       endDate: 'Aug 2022',
-    },
-    {
-      company: 'Search Engine Optimization Evaluator',
-      role: 'iSoftStone',
-      description:'',
-      startDate: 'Sep 2019',
-      endDate: 'Jun 2019',
-    },
+    }
   ]
 
 
@@ -233,21 +226,7 @@ export const PROJECTS: {
       liveLink: 'https://google.com',
       previewImage: '/project2.png',
       repoUrl: 'https://github.com',
-    },
-    {
-      name: 'Project 3',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
-      previewImage: '/project3.png',
-      repoUrl: 'https://github.com',
-    },
-    {
-      name: 'Project 4',
-      description: 'Lorem ipsum dolor sit amet',
-      liveLink: 'https://google.com',
-      previewImage: '/project4.png',
-      repoUrl: 'https://github.com',
-    },
+    }
   ]
   
 

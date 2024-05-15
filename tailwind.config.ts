@@ -10,9 +10,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: '#fff4e0',
-        main: '#FD9745',
-        mainAccent: '#fc7303',
+        bg: '#ff3ab3',
+        main: '#00a9dd',
+        mainAccent: '#e9124c',
       },
       borderRadius: {
         base: '5px',

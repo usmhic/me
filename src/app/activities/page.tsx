@@ -9,7 +9,7 @@ export default function Activities() {
       {ACTIVITIES.map((activity, id) => {
         return (
           <div
-            className="border-b-4 border-r-4 border-b-black border-r-black bg-white p-8 py-10 w600:px-[30px] w400:px-5"
+            className="border-b-4 border-r-4 border-b-black border-r-black bg-mainAccent p-8 py-10 w600:px-[30px] w400:px-5"
             key={id}
           >
             <div className="mx-auto w-3/4 w800:w-full">
