@@ -1,3 +1,3 @@
-# Portfolio
-A Simple Portfolio Website made mainly with Bootstrap Studio and hosted with GitHub Pages.
-https://usmhic.me/
+# Portfolio 
+
+Portfolio Website Bult with NextJs, Shadcn & Neobrutalism https://github.com/ekmas/neobrutalism-components
