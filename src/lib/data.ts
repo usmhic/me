@@ -60,12 +60,6 @@ const websites = [
 ]
 
 export const LINKS: { [key in SocialMedia]: Link } = {
-  behance: {
-    title: 'Behance',
-    icon: behance,
-    link: 'https://www.behance.net/usmhic',
-    text: '@usmhic',
-  },
   github: {
     title: 'Github',
     icon: github,
@@ -129,7 +123,7 @@ export const EXPERIENCE: {
   }[] = [
     {
       company: 'APM Terminals',
-      role: 'IT/OT Engineering Intern',
+      role: 'Software Engineering Intern',
       description:
         'Building and deploying a scalable AI-powered platform to optimize terminal operations using Python/FastAPI & NextJS.',
       startDate: 'Feb 2024',
@@ -205,7 +199,7 @@ export  const SKILLS: { field: string; skills: { skill: string; icon: IconType }
       },
     ]
 
-      
+
 export const PROJECTS: {
     name: string
     description: string
@@ -226,7 +220,21 @@ export const PROJECTS: {
       liveLink: 'https://google.com',
       previewImage: '/project2.png',
       repoUrl: 'https://github.com',
-    }
+    },
+    {
+      name: 'Project 3',
+      description: 'Lorem ipsum dolor sit amet',
+      liveLink: 'https://google.com',
+      previewImage: '/project3.png',
+      repoUrl: 'https://github.com',
+    },
+    {
+      name: 'Project 4',
+      description: 'Lorem ipsum dolor sit amet',
+      liveLink: 'https://google.com',
+      previewImage: '/project4.png',
+      repoUrl: 'https://github.com',
+    },
   ]
   
 
@@ -242,28 +250,28 @@ export const ACTIVITIES: {
       name: 'NetComDayz',
       description: 'Lorem ipsum dolor sit amet',
       liveLink: 'https://google.com',
-      previewImage: '/project1.png',
+      previewImage: 'https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/391708608_2649208488566374_2022014855297659293_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHOo6T5tIZZFaBr9GkOzIRckjntKzL8qfeSOe0rMvyp92LT4-cIP3KyxLcTubtuAMvag3sXxqal0wR0OHfEy3xB&_nc_ohc=YeBC7BI9gMsQ7kNvgEjWR_K&_nc_ht=scontent.frba2-1.fna&oh=00_AYDN_jc21u2ybkbJ041lh4UKZFaclzNsjru3dcSsWV157A&oe=664AE4DF',
       repoUrl: 'https://github.com',
     },
     {
       name: 'Leadership Lab',
       description: 'Lorem ipsum dolor sit amet',
       liveLink: 'https://google.com',
-      previewImage: '/project2.png',
+      previewImage: 'https://media.licdn.com/dms/image/D4E22AQEWh-frm3vqgA/feedshare-shrink_2048_1536/0/1684348090191?e=1718841600&v=beta&t=chvfE41gmHKxWigI03Mr0vJKFkZy5BpJ5N7AxsVuRGM',
       repoUrl: 'https://github.com',
     },
     {
       name: 'NASA SpaceApps Challenge',
       description: 'Lorem ipsum dolor sit amet',
       liveLink: 'https://google.com',
-      previewImage: '/project3.png',
+      previewImage: 'https://scontent.frba3-2.fna.fbcdn.net/v/t1.6435-9/73159524_1408679059285996_5073601474710208512_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGRrGXgP1pm-0lnfzyVn8nHn_KeXMNcV0uf8p5cw1xXS9S_KqRsI8xqBL8S5WjYFYklFdoPhMkAkrnf8W_eViSd&_nc_ohc=3j3J4-gJIacQ7kNvgF00121&_nc_ht=scontent.frba3-2.fna&oh=00_AYA0YWCu80pNxu3GxoqZq-b4trXOVJnoh4VKbvbIwiSe7w&oe=666C6E67',
       repoUrl: 'https://github.com',
     },
     {
       name: 'Moonshot Morocco',
       description: 'Lorem ipsum dolor sit amet',
       liveLink: 'https://google.com',
-      previewImage: '/project4.png',
+      previewImage: 'https://scontent.frba3-2.fna.fbcdn.net/v/t1.6435-9/52594339_1229376293882941_7422181027721773056_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEVi7sd0ibpXiwDLgCe1xSIaiM4DJLDLt9qIzgMksMu3zfvh4NrFdxo208bLl1VQGYMW-51fDDl3IENKU60reKi&_nc_ohc=7gBoNfxGFSUQ7kNvgGegOkD&_nc_ht=scontent.frba3-2.fna&oh=00_AYC4sgh1IaYFqZD1Z3xkvwCfQH4xgKGOkDhPTtZIwb2VJQ&oe=666C7958',
       repoUrl: 'https://github.com',
     },
   ]

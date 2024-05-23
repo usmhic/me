@@ -4,6 +4,12 @@ import { ACTIVITIES } from '@/lib/data'
 export default function Activities() {
 
   return (
+    <>
+      <div className="flex flex-col mb-8 justify-center items-center min-h-screen">
+          <h1 className="mb-8 text-2xl font-heading sm:text-4xl text-center">Coming Soon</h1>
+          <img src="https://cataas.com/cat" alt="Random Cat" />
+      </div>
+    {/*
     <div className="mx-auto w-[750px] max-w-full">
       <h1 className="mb-8 text-2xl font-heading sm:text-4xl">Activities</h1>
       {ACTIVITIES.map((activity, id) => {
@@ -18,8 +24,8 @@ export default function Activities() {
                 ratio={2 / 1}
               >
                 <img
-                  className="w-full rounded-base"
-                  src={`${activity.previewImage}`}
+                    className="w-full h-full object-cover object-top rounded-base"
+                    src={`${activity.previewImage}`}
                   alt={activity.name}
                 />
               </AspectRatio>
@@ -55,5 +61,7 @@ export default function Activities() {
         )
       })}
     </div>
+     */}
+     </>
   )
 }

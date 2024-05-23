@@ -3,6 +3,12 @@ import { PROJECTS } from '@/lib/data'
 
 export default function Projects() {
   return (
+    <>
+      <div className="flex flex-col mb-8 justify-center items-center min-h-screen">
+          <h1 className="mb-8 text-2xl font-heading sm:text-4xl text-center">Coming Soon</h1>
+          <img src="https://cataas.com/cat" alt="Random Cat" />
+      </div>
+    {/*
     <div className="mx-auto w-[750px] max-w-full">
       <h1 className="mb-8 text-2xl font-heading sm:text-4xl">Projects</h1>
 
@@ -18,7 +24,7 @@ export default function Projects() {
                 ratio={71 / 26}
               >
                 <img
-                  className="w-full rounded-base"
+                  className="w-full h-auto object-top object-cover rounded-base"
                   src={`${project.previewImage}`}
                   alt={project.name}
                 />
@@ -53,5 +59,7 @@ export default function Projects() {
         })}
       </div>
     </div>
+     */}
+     </>
   )
 }
